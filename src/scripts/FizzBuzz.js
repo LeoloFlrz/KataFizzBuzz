@@ -6,9 +6,11 @@ function createArray() {
   return numbers;
 }
 
+const numero = createArray();
+
 function convertirFizzBuzz() {
-  numero = numbers[i];
-  if(numero % 3 == 0 && numero % 5 == 0) {
+  for (let i = 0; i < numero.length; i++) {
+    if(numero % 3 == 0 && numero % 5 == 0) {
     numero = "FizzBuzz"
   } else if (numero % 3 == 0) {
     numero = "Fizz"
@@ -16,6 +18,7 @@ function convertirFizzBuzz() {
     numero = "Buzz"
   } 
   return numero;
+  }
 }
 
 // function convertFizzBuzz(numero){
@@ -31,7 +34,7 @@ function convertirFizzBuzz() {
 //   }
 // }
 
-const numero = createArray();
+
 
 console.log(createArray());
 console.log(convertirFizzBuzz());
