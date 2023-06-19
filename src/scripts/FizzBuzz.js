@@ -8,7 +8,7 @@ function createArray() {
 
 const numero = createArray();
 
-function convertirFizzBuzz() {
+function convertirFizzBuzz(numero) {
   for (let i = 0; i < numero.length; i++) {
     if(numero % 3 == 0 && numero % 5 == 0) {
     numero = "FizzBuzz"
@@ -37,4 +37,4 @@ function convertirFizzBuzz() {
 
 
 console.log(createArray());
-console.log(convertirFizzBuzz());
+console.log(convertirFizzBuzz(numero));
