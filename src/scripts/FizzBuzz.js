@@ -18,6 +18,6 @@ function createArray() {
   console.log(numbers);
   return numbers;
 }
-  
-createArray()
+  createArray()
+
 
