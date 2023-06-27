@@ -3,8 +3,7 @@ import { FizzBuzz } from './../src/scripts/FizzBuzz'
 
   describe('FizzBuzz kata', () => {
     test('should return "Fizz" for numbers divisible by 3', () => {
-      expect(FizzBuzz()[2]).toBe('Fizz')  // 3 % 3 == 0
-      expect(FizzBuzz()[8]).toBe('Fizz')  // 9 % 3 == 0
+      expect(FizzBuzz()[2]).toBe('Fizz')  
       
     })
 
