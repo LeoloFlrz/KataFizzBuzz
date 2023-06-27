@@ -12,8 +12,6 @@ export function FizzBuzz() {
       numbers[i] = "Buzz";
     }
   }
-
-  console.log(numbers);
   return numbers;
 }
 

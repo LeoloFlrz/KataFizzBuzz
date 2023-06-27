@@ -4,7 +4,7 @@ import { FizzBuzz } from './../src/scripts/FizzBuzz'
   describe('FizzBuzz kata', () => {
     test('should return "Fizz" for numbers divisible by 3', () => {
       expect(FizzBuzz()[2]).toBe('Fizz')  
-      
+      expect(FizzBuzz()[5]).toBe('Fizz')
     })
 
     test('should return "Buzz" for numbers divisible by 5', () => {
